@@ -1,4 +1,3 @@
-
 // SmartMenus mobile menu toggle button
 $(function() {
   var $mainMenuState = $('#main-menu-state');
