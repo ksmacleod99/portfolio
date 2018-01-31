@@ -1,3 +1,4 @@
+
 // SmartMenus mobile menu toggle button
 $(function() {
   var $mainMenuState = $('#main-menu-state');
@@ -28,9 +29,9 @@ $(document).ready(function(){
    $(document).scroll(function() {
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $(".main-nav").css({'background':'url(images/tile1.png)', 'background-repeat':'repeat-x', 'background-color':'#f69a58'});
+          $(".main-nav").css({'background':'url(images/tile1.png)', 'background-repeat':'repeat-x', 'background-color':'#f69b58'});
        } else {
-          $('.main-nav').css('background-color', 'transparent');
+          $('.main-nav').css({'background':'none', 'background-color' : 'transparent'});
        }
    });
     }
